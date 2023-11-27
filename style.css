@@ -1,0 +1,39 @@
+body{
+    /* background: fixed linear-gradient(to left, rgb(0, 0, 0), rgb(102, 0, 128)); */
+    background: fixed linear-gradient( rgb(170, 223, 223), teal);
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    text-align: center;
+    background-image: url(https://www.superoffice.com/contentassets/0e2931ce06a747bd9445467388951331/reduce-response-times.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button{
+    /* background: rgb(0, 243, 252); */
+    border-radius: 10px;
+    font-size: xxx-large;
+    font-weight: bold;
+    box-shadow: 7px 7px #000000;
+    transform: translate(3px,3px);
+    transition: transform 0.2s ease-in-out;
+
+}
+.button {
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .button:hover {
+    transform: translate(2px, 2px);
+    background-color:rgb(255, 0, 0);
+  }
+  
+  .button:active {
+    transform: translate(0px, 0px);
+  }
+.mytext,.fig{
+    background-color: black;
+    color:white;
+}
+.output{
+  font-size: xx-large;
+}
